@@ -1,0 +1,11 @@
+Some General Informations about Signals
+---------------------------------------
+
+1) Signals are a way for processes to communicate asynchronously
+
+2) Signal handlers are functions executed when a process receives a specific signal
+
+3) The kill() function can be used to send signals to processes identified by their PID
+
+4)The pause() function is used to wait for a signal, making process synchronization simpler
+

@@ -1,0 +1,10 @@
+3 Tomato 
+1 Onion
+5 Cauliflower
+6 Cabbage
+2 Spinach
+4 Ricotta 
+9 Milk
+10 Hamburger
+7 Chicken
+8 Eggs

@@ -1,0 +1,14 @@
+Create Links Commands:
+----------------------
+
+1. Hard Link ( Physical ): ln main.c hardLinkName
+Synchronize any change made to the file it is connected to
+
+2. Soft Link ( Symbolic ): ln -s main.c symbolicLinkName
+contain only the name of the directory or file it points to
+
+Display I - Node:
+-----------------
+
+Command: ln -i nameFile
+

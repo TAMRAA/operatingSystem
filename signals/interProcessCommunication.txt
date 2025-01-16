@@ -1,0 +1,35 @@
+Inter Process Communication
+----------------------------
+
+. Concurrent Process can be cooperating ( sharing data and exchanging messages ) and independent
+
+. Information sharing between processes is referred as Inter Process Communication
+
+Communication Models
+---------------------
+
+. Shared memory => 2 processes share a common block of memory where they can write and read from
+
+NOTE: Usually done using a File or Mapped file !! ( ALLOW SHARING A LOT A LARGE AMOUNT OF DATA )
+
+. Message exchange => 2 processes communicate through the Kernel by mean of system calls and message
+
+NOTE: Usually done by setting up a Communication channel ( Direct OR Indirect )
+
+
+PIPES
+-----
+
+Pipes are the oldest form of communication in UNIX
+so they provide a communication channel, which is:
+
+1) Direct
+2) Asynchronous
+3) With limited capacity
+4) Pipes lives in the memory
+
+Objective
+---------
+
+1) Allow creating a data stream among process
+2)
